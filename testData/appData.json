@@ -1,0 +1,10 @@
+{
+    "stage":{
+        "userName": "saleem@testleaf.com",
+        "password": "Shazia@23"
+    },
+    "dev":{
+        "userName": "hari.radhakrishnan@qeagle.com",
+        "password": "Testleaf@1234"
+    }
+}
