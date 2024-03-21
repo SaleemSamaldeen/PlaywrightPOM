@@ -12,7 +12,7 @@ test.describe('Salesforce Login', () => {
         const testData = FrameHelper.loadTestData(EnvConstants.STAGE);
         const loginPage = new LoginPage(page);
         loginPage.doLogin(testData.userName, testData.password);
-        //await expect(page).toHaveURL(URLConstants.HOME_PAGE);
+        await expect(page).toHaveURL(URLConstants.HOME_PAGE);
     });
     
 });

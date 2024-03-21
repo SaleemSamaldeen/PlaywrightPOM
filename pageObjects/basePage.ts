@@ -22,4 +22,8 @@ export class BasePage {
             console.log(`Error occurred while trying to click on given locator: ${error}`);
         }
     }
+
+    async waitForPageLoad() {
+        await this.page.waitForLoadState('domcontentloaded');
+    }
 }
